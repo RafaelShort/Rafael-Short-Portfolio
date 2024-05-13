@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+}
+
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    transition: all 2000ms ease-in-out;
+}
+
+ul a .active {
+    color: #e74d06;
+}
+
+.nav .link ul a:hover {
+    color: #e74d06;
+}
+
+.main-detil h1 span{
+    color: #e74d06;
+    position: relative;
+}
+
+.main-detil h1 span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: deslizaDireita 1s ease forwards;
+    animation-delay: 1.5s;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 70px;
+
+}
+
+.main .men {
+    width: 350px;
+    transition: all 2000ms ease;
+    cursor: pointer;
+}
+
+.main .men:hover{
+    transform: scale(1.3);
+}
+
+.main .main-detil {
+    text-align: center;
+    color: #2a2a2a;
+}
+
+.main .main-detil h1 {
+    font-size: 50px;
+
+}
+
+.main .main-detil h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main .btn button {
+    padding: 8px 20px;
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #2a2a2a;
+    margin-right: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.main .btn .btn-2 {
+    padding: 8px 30px;
+    background: #2a2a2a;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 2000ms ease-in-out;
+
+}
+
+.main .btn .btn-2:hover {
+    background: #e74d06;
+    transform: scale(1.1);
+}
+
+.social i {
+    color: #2a2a2a;
+    font-size: 40px;
+    margin: 0px 14px;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+}
+
+.social i:hover {
+    color: #e74d06;
+}
+
+.sub-btn a{
+    position: absolute;
+    bottom: 60px;
+    right: 50px;
+    padding: 10px 20px;
+    background: e74d06;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: deslizaDireita 1s ease forwards;
+    animation-delay: 1.5s;
+
+}
+
+/* Parte que se refere ao About Me*/
+
+.about-me_section{
+    width: 100%;
+    height: 30vh;
+    padding: 0px 8%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-me_head{
+    width: 100%;
+    margin-top: 0px;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+}
+.about-me_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.about-me_head h2 span{
+    color: #e74d06;
+}
+
+/* Parte que se refere ao Education*/
+
+.education_section{
+    width: 100%;
+    height: 40vh;
+    padding: 0px 8%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.education_head{
+    width: 100%;
+    margin-bottom: 0px;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+}
+.education_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.education_head h2 span{
+    color: #e74d06;
+}
+
+.institutions div{
+    margin-top: 20px;   
+    place-items: center;
+    text-align: center;
+}
+
+/* Parte que se refere às habilidades*/
+
+.skills_section{
+    width: 100%;
+    height: 80vh;
+    padding: 0px 13%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+.skills_head h2 span{
+    color: #e74d06;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 80%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .css{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .python{
+    width: 60%;
+    animation: python 2s;
+}
+@keyframes python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .js{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .react{
+    width: 80%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .express{
+    width: 70%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .bootstrap{
+    width: 70%;
+    animation: bootstrap 2s;
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .jquery{
+    width: 70%;
+    animation: jquery 2s;
+}
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .sql{
+    width: 60%;
+    animation: sql 2s;
+}
+@keyframes sql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .flutter{
+    width: 60%;
+    animation: flutter 2s;
+}
+@keyframes flutter {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+.skill_bar .bar .dart{
+    width: 60%;
+    animation: dart 2s;
+}
+@keyframes dart {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+
+@keyframes deslizaDireita {
+    100% {
+        width: 0;
+    } 
+}
+
+
+/* Parte que se refere ao Project*/
+
+.project_section{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0px 13%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project_head{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.project_head h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.project_head h2 span{
+    color: #e74d06;
+}
+
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p{
+    color: #2a2a2a;
+    font-size: 15px;
+    place-items: center;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.card-content .btn-card {
+display: inline-block;
+padding: 8px 30px;
+background-color: #2a2a2a;
+text-decoration: none;
+border-radius: 25px;
+margin-top: 16px;
+color: #fff;
+transition: all 2000ms ease-in-out;
+cursor: pointer;
+
+}
+
+.card-content .btn-card:hover {
+    background: #e74d06;
+    transform: scale(1.1);
+}   
+
+/* Parte que se refere ao Contact Me*/
+
+.contact_section{
+    width: 100%;
+    height: 85vh;
+    padding: 0px 8%;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_head{
+    width: 100%;
+    margin-top: 0px;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+}
+.contact_head h2{
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.contact_head h2 span{
+    color: #e74d06;
+}
+
+form{
+    width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.082);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 25px;
+    color: #2a2a2a;
+    font-size: 15px;
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+    max-height: 250px;
+}
+
+form .btn-enviar{
+    margin-top: 10px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: #fff;
+    border-radius: 25px;
+    transition: all 2000ms ease-in-out;
+    padding: 8px 30px;
+    text-decoration: none;
+}   
+form .btn-enviar input[type=submit]:hover {
+    background: #e74d06;
+    transform: scale(1.1);
+}   
+
+.flex {
+    display: flex;
+}
+
+/* Parte que se refere ao Footer*/
+
+footer{
+    padding: 40px 4%;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+a.email{
+    text-decoration: none;
+    color: #e74d06;
+    font-weight: 700;
+}

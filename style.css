@@ -150,6 +150,11 @@ ul a .active {
     border-radius: 6px;
 }
 
+#logo_up{
+    position: relative;
+    right: 150px;
+}
+
 .logo {
     position: relative;
 }
@@ -603,4 +608,59 @@ a.email{
     text-decoration: none;
     color: #e74d06;
     font-weight: 700;
+}
+
+@media screen and (max-width: 1030px){
+    div .link{
+        display: none;
+    }
+
+    .main{
+        flex-direction:column;
+        margin-top: 0;
+        gap: 2rem;
+    }
+
+    .main .men{
+        width: 55%;
+    }
+
+    .about-me_section{
+        margin-top: 1rem;
+        height: 65vh;
+        font-size: 15px;
+    } 
+
+    .education_section{
+        height: 50vh;
+        font-size: 15px;
+    }
+
+    .skills_section{
+        height: 90vh;
+        font-size: 14px;
+    }
+
+    .skills_section{
+        height: 90vh;
+        font-size: 15px;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .contact_section{
+        font-size: 15px;
+    }
+
+    #social_up{
+        display: none;
+    }
+
+    .social i {
+
+        margin: 0px 2px;
+    }
+    
 }

@@ -260,7 +260,7 @@ a:hover {
 /* Responsividade */
 @media (max-width: 1030px) {
     .menu-toggle {
-        display: flex; /* Exibir menu no celular */
+        display: block; /* Exibir menu no celular */
         flex-direction: column;
         cursor: pointer;
     }

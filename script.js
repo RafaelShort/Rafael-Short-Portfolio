@@ -1,6 +1,4 @@
-const mobileMenu = document.getElementById('mobile-menu');
-const nav = document.querySelector('nav');
-
-mobileMenu.addEventListener('click', () => {
-    nav.classList.toggle('active');
-});
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('hidden'); // Alterna a visibilidade do menu
+}

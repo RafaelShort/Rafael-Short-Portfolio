@@ -126,9 +126,9 @@ a:hover {
         margin: 10px;
     }
     .projeto-card {
-        width: 100%; /* Os cards ocupam 100% da largura */
-        margin: 10px 0; /* Margem vertical entre os cards */
+        width: calc(45% - 20px); /* Duas colunas em tablets */
     }
+
 }
 
 @media (max-width: 480px) {
@@ -138,6 +138,10 @@ a:hover {
 
     section h2 {
         font-size: 1.5em;
+    }
+    .projeto-card {
+        width: 100%; /* Os cards ocupam 100% da largura */
+        margin: 10px 0; /* Margem vertical entre os cards */
     }
 }
 

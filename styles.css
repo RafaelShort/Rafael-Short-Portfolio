@@ -92,85 +92,6 @@ a:hover {
     color: #fff;
 }
 
-/* Responsividade */
-@media (max-width: 1030px) {
-    .menu-toggle {
-        display: flex; /* Exibir menu no celular */
-        flex-direction: column;
-        cursor: pointer;
-    }
-
-    nav {
-        display: none; /* Ocultar menu em celular */
-        flex-direction: column;
-        width: 100%;
-        background: #e74d06;
-        position: absolute;
-        top: 60px;
-        left: 0;
-    }
-
-    nav.active {
-        display: flex; /* Exibir menu quando ativo */
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    section {
-        margin: 10px;
-    }
-
-    .projetos-container {
-        display: flex; /* Certifique-se de que o contêiner use flexbox */
-        flex-direction: column; /* Colocar os cards em coluna */
-        align-items: center; /* Centralizar os cards */
-        width: 100%; /* Garantir que o contêiner ocupe a largura total */
-    }
-
-    .projeto-card {
-        width: 90%; /* Os cards ocupam 100% da largura */
-        margin: 10px 0; /* Margem vertical entre os cards */
-        max-width: 600px; /* Limitar a largura máxima dos cards */
-    }
-    .projeto-card h3 {
-        font-size: 1.5em; /* Ajuste o tamanho do título */
-    }
-
-    .projeto-card p {
-        font-size: 0.9em; /* Ajuste o tamanho do texto do parágrafo */
-    }
-}
-
-@media (max-width: 850px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    section h2 {
-        font-size: 1.5em;
-    }
-
-    .projeto-card {
-        width: 90%; /* Os cards ocupam 100% da largura */
-        margin: 10px 0; /* Margem vertical entre os cards */
-        max-width: 100%; /* Garantir que os cards ocupem a largura total */
-    }
-    .projeto-card h3 {
-        font-size: 1.2em; /* Tamanho ainda menor para telas muito pequenas */
-    }
-
-    .projeto-card p {
-        font-size: 0.8em; /* Tamanho ainda menor para telas muito pequenas */
-    }
-}
-
-
 .skills_section {
     padding: 40px;
     margin: 20px;
@@ -267,7 +188,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
     padding: 25px;
-    width: 90%; /* Preencher a maior parte da largura */
+    width: calc(30% - 30px);
     text-align: center;
     max-width: 600px;
     box-sizing: border-box;
@@ -336,4 +257,82 @@ a:hover {
 .email-link:hover {
     color: #e74d06; /* Mudança de cor ao passar o mouse */
     transform: scale(1.2); /* Efeito de aumento */
+}
+
+/* Responsividade */
+@media (max-width: 1030px) {
+    .menu-toggle {
+        display: flex; /* Exibir menu no celular */
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    nav {
+        display: none; /* Ocultar menu em celular */
+        flex-direction: column;
+        width: 100%;
+        background: #e74d06;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    nav.active {
+        display: flex; /* Exibir menu quando ativo */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    .projetos-container {
+        display: flex; /* Certifique-se de que o contêiner use flexbox */
+        flex-direction: column; /* Colocar os cards em coluna */
+        align-items: center; /* Centralizar os cards */
+        width: 100%; /* Garantir que o contêiner ocupe a largura total */
+    }
+
+    .projeto-card {
+        width: 90%; /* Os cards ocupam 100% da largura */
+        margin: 10px 0; /* Margem vertical entre os cards */
+        max-width: 800px; /* Limitar a largura máxima dos cards */
+    }
+    .projeto-card h3 {
+        font-size: 1.5em; /* Ajuste o tamanho do título */
+    }
+
+    .projeto-card p {
+        font-size: 0.9em; /* Ajuste o tamanho do texto do parágrafo */
+    }
+}
+
+@media (max-width: 850px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    .projeto-card {
+        width: 90%; /* Os cards ocupam 100% da largura */
+        margin: 10px 0; /* Margem vertical entre os cards */
+        max-width: 100%; /* Garantir que os cards ocupem a largura total */
+    }
+    .projeto-card h3 {
+        font-size: 1.2em; /* Tamanho ainda menor para telas muito pequenas */
+    }
+
+    .projeto-card p {
+        font-size: 0.8em; /* Tamanho ainda menor para telas muito pequenas */
+    }
 }

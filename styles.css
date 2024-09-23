@@ -132,7 +132,7 @@ a:hover {
     }
 
     .projeto-card {
-        width: 90%; /* Aumentar a largura dos cards */
+        width: 100%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
     }
 }
@@ -147,10 +147,11 @@ a:hover {
     }
 
     .projeto-card {
-        width: 90%; /* Aumentar a largura dos cards ainda mais em telas menores */
+        width: 100%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
     }
 }
+
 
 .skills_section {
     padding: 40px;

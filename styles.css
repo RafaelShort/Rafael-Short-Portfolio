@@ -264,8 +264,8 @@ a:hover {
 }
 
 /* Oculta o menu por padrão */
-nav ul.hidden {
-    display: none;
+nav ul {
+    display: flex; /* Menu normal em telas grandes */
 }
 
 /* Responsividade */
@@ -278,9 +278,12 @@ nav ul.hidden {
         flex-direction: column; /* Organizar itens verticalmente */
         align-items: flex-start; /* Alinhar à esquerda */
     }
-
-    nav.active {
-        display: flex; /* Exibir menu quando ativo */
+    
+    nav ul {
+        flex-direction: column; /* Colocar os itens em coluna */
+        width: 100%; /* Ocupa toda a largura */
+        display: none; /* Ocultar menu por padrão */
+        background: #e74d06; /* Cor de fundo do menu */
     }
 
     nav.active ul {

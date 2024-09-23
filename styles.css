@@ -257,34 +257,34 @@ a:hover {
     transform: scale(1.2); /* Efeito de aumento */
 }
 
+.menu-toggle {
+    display: none; /* Ocultar por padrão */
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Oculta o menu por padrão */
+nav ul.hidden {
+    display: none;
+}
+
 /* Responsividade */
 @media (max-width: 1030px) {
     .menu-toggle {
-        display: block; /* Exibir menu no celular */
-        flex-direction: column;
-        cursor: pointer;
+        display: block; /* Mostrar o botão em telas menores */
     }
 
     nav {
-        display: none; /* Ocultar menu em celular */
-        flex-direction: column;
-        width: 100%;
-        background: #e74d06;
-        position: absolute;
-        top: 60px;
-        left: 0;
+        flex-direction: column; /* Organizar itens verticalmente */
+        align-items: flex-start; /* Alinhar à esquerda */
     }
 
     nav.active {
         display: flex; /* Exibir menu quando ativo */
     }
 
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
+    nav.active ul {
+        display: flex; /* Mostrar menu quando ativo */
     }
 
     section {

@@ -127,13 +127,16 @@ a:hover {
     }
 
     .projetos-container {
+        display: flex; /* Certifique-se de que o contêiner use flexbox */
         flex-direction: column; /* Colocar os cards em coluna */
         align-items: center; /* Centralizar os cards */
+        width: 100%; /* Garantir que o contêiner ocupe a largura total */
     }
 
     .projeto-card {
-        width: 100%; /* Os cards ocupam 100% da largura */
+        width: 90%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
+        max-width: 600px; /* Limitar a largura máxima dos cards */
     }
     .projeto-card h3 {
         font-size: 1.5em; /* Ajuste o tamanho do título */
@@ -154,8 +157,9 @@ a:hover {
     }
 
     .projeto-card {
-        width: 100%; /* Os cards ocupam 100% da largura */
+        width: 90%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
+        max-width: 100%; /* Garantir que os cards ocupem a largura total */
     }
     .projeto-card h3 {
         font-size: 1.3em; /* Tamanho ainda menor para telas muito pequenas */

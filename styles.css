@@ -93,7 +93,7 @@ a:hover {
 }
 
 /* Responsividade */
-@media (max-width: 1030px) { 
+@media (max-width: 1030px) {
     .menu-toggle {
         display: flex; /* Exibir menu no celular */
         flex-direction: column;
@@ -125,10 +125,16 @@ a:hover {
     section {
         margin: 10px;
     }
-    .projeto-card {
-        width: calc(45% - 20px); /* Duas colunas em tablets */
+
+    .projetos-container {
+        flex-direction: column; /* Colocar os cards em coluna */
+        align-items: center; /* Centralizar os cards */
     }
 
+    .projeto-card {
+        width: 90%; /* Aumentar a largura dos cards */
+        margin: 10px 0; /* Margem vertical entre os cards */
+    }
 }
 
 @media (max-width: 768px) {
@@ -139,8 +145,9 @@ a:hover {
     section h2 {
         font-size: 1.5em;
     }
+
     .projeto-card {
-        width: 100%; /* Os cards ocupam 100% da largura */
+        width: 90%; /* Aumentar a largura dos cards ainda mais em telas menores */
         margin: 10px 0; /* Margem vertical entre os cards */
     }
 }

@@ -125,6 +125,10 @@ a:hover {
     section {
         margin: 10px;
     }
+    .projeto-card {
+        width: 100%; /* Os cards ocupam 100% da largura */
+        margin: 10px 0; /* Margem vertical entre os cards */
+    }
 }
 
 @media (max-width: 480px) {

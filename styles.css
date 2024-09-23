@@ -162,7 +162,7 @@ a:hover {
         max-width: 100%; /* Garantir que os cards ocupem a largura total */
     }
     .projeto-card h3 {
-        font-size: 1.3em; /* Tamanho ainda menor para telas muito pequenas */
+        font-size: 1.2em; /* Tamanho ainda menor para telas muito pequenas */
     }
 
     .projeto-card p {

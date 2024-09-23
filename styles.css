@@ -267,7 +267,7 @@ a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
     padding: 25px;
-    width: calc(30% - 30px);
+    width: 90%; /* Preencher a maior parte da largura */
     text-align: center;
     max-width: 600px;
     box-sizing: border-box;

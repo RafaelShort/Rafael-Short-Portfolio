@@ -1,78 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http_equiv="X_UA_Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio Website | Rafael Short </title>
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Boxicons CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Adicionando Font Awesome -->
+    <title>Meu Portfólio - Rafael Short</title>
 </head>
-
-<body onload="document.body.style.opacity='1'">
-    <div class="hero">
-        <div class="nav">
-            <div class="logo" id="logo_up">
-                <h2>Rafael Short</h2>
-            </div>
-            <div class="link">
-                <ul>
-                    <li><a href="#about-me" class="active">Sobre</a></li>
-                    <li><a href="#education">Formação</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#project">Experiências</a></li>
-                    <li><a href="#contact_me">Contato</a></li>
-                </ul>
-            </div>
+<body>
+    <header>
+        <h1>Portfólio de Rafael Short</h1>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-
-        <section class="main">
-            <img src="img/foto_perfil_rafael_short.png" alt="Foto de Perfil" class="men">
-            <div class="main-detil">
-                <p>Olá, eu sou</p>
-                <h1><span>Rafael Short</span></h1>
-                <h4>Desenvolvedor Web e Mobile</h4>
-
-                <div class="btn">
-                    <a href="https://drive.google.com/file/d/1svxFBRbnkR_SdL7Rg9gVb8999oZ4a_U1/view?usp=sharing"><button type="submit"> Baixar CV</button></a>
-                    <a href="#contact_me"><button type="submit" class="btn-2">Contate-me</button></a>
-                </div>
-
-                <div class="social" id="social_up">
-                    <a href="https://github.com/RafaelShort"><i class='bx bxl-github'></i></a>
-                    <a href="https://www.linkedin.com/in/rafael-short-silva/"><i class='bx bxl-linkedin'></i></a>
-                </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://github.com/RafaelShort" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rafael-short-silva/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
             </div>
-        </div>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Em busca de oportunidades para expandir minhas experiências e meus conhecimentos e aplicá-los para a o desenvolvimento
+            tecnológico e científico. Tenho muito interesse nas áreas de Programação, Desenvolvimento WEB e Mobile Automação,
+             Controle, Internet das Coisas, entre outros assuntos. Na faculdade, participei de um projeto de iniciação científica
+           e de grupos estudantis, como IEEE PES UFBA (Webmaster), IEEE CS UFBA (Presidente), IEEE SAC Nordeste (Coordenador
+            de Desenvolvimento Mobile), PET Elétrica UFBA e representante estudantil do Centro Acadêmico de Engenharia Elétrica.
+            Atualmente, estou no 8º semestre da graduação em Engenharia Elétrica pela Universidade Federal da Bahia</p>
     </section>
 
-    <section class="about-me_section" id="about-me">
-        <div class="about-me_head">
-            <h2><span>Sobre</span></h2>
-            <p>Em busca de oportunidades para expandir minhas experiências e meus conhecimentos e aplicá-los para a o desenvolvimento
-                 tecnológico e científico. Tenho muito interesse nas áreas de Programação, Desenvolvimento WEB e Mobile Automação,
-                  Controle, Internet das Coisas, entre outros assuntos. Na faculdade, participei de um projeto de iniciação científica
-                e de grupos estudantis, como IEEE PES UFBA (Webmaster), IEEE CS UFBA (Presidente), IEEE SAC Nordeste (Coordenador
-                 de Desenvolvimento Mobile), PET Elétrica UFBA e representante estudantil do Centro Acadêmico de Engenharia Elétrica.</p>
-        </div>
-    </section>
-
-    <section class="education_section" id="education">
-        <div class="education_head">
-            <h2><span>Formação</span></h2>
-            <p>Aqui estão minhas formações acadêmicas:</p>
-            <div class="institutions">
-                <div id="ufba">
-                    <h3>Universidade Federal da Bahia</h3>
-                    <p>Graduação em Andamento em Engenharia Elétrica (8º Semestre)</p>
-                </div>
-                <div id="cna">
-                    <h3>Escola de Idiomas CNA</h3>
-                    <p>Formação Concluída no Curso de Idiomas CNA (Inglês Avançado)</p>
-                </div>
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-container">
+            <div class="projeto-card">
+                <img src="img\logo_app_ieee_secao_nordeste_brasil.jpeg" alt="Projeto - App IEEE Seção Nordeste Brasil" class="projeto-imagem">
+                <h3>App IEEE Seção Nordeste Brasil</h3>
+                <p>Participação no projeto do aplicativo, desenvolvido com Dart, Flutter e Node.js, para auxiliar
+                    membros do IEEE da Seção Nordeste.</p>
+                <a href="https://play.google.com/store/apps/details?id=org.ieee.r9.northeastbrazilsection.app&pli=1" class="botao-projeto">Ver Projeto</a>
+            </div>
+            <div class="projeto-card">
+                <img src="img\imagem_codigo_morse_projeto.PNG" alt="Projeto - Conversor de Texto para Código Morse" class="projeto-imagem">
+                <h3>Conversor de Texto para Código Morse</h3>
+                <p>conversor de texto para código Morse, desenvolvido em Python utilizando a biblioteca Tkinter para criar uma interface gráfica
+                de usuário (GUI).</p>
+                <a href="https://github.com/RafaelShort/Morse-Code-Converter" class="botao-projeto">Ver Projeto</a>
             </div>
         </div>
     </section>
@@ -195,59 +178,21 @@
         </div>
     </section>
 
-    <section class="project-section" id="project">
-        <div class="project_head">
-            <h2>Meus <span>Projetos</span></h2>
-            <p>Aqui estão os meus principais projetos que desenvolvi ou contribui:</p>
-        </div>
-
-        <div class="card">
-            <img src="img/logo_app_ieee_secao_nordeste_brasil.jpeg" alt="Foto do projeto do app IEEE Seção Nordeste Brasil">
-            <div class="card-content">
-                <h3>App IEEE Seção Nordeste Brasil</h3>
-                <p>Participação no projeto do aplicativo, desenvolvido com Dart, Flutter e Node.js, para auxiliar
-                membros do IEEE da Seção Nordeste.</p>
-                <a href="https://play.google.com/store/apps/details?id=org.ieee.r9.northeastbrazilsection.app&pli=1" class="btn-card">Saiba Mais</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact_section" id="contact_me">
-
-        <div class="contact_head">
-            <h2><span>Contate-me</span></h2>
-            <p>Através desse espaço, é possível entrar em contato comigo:</p>
-            <form method="post" action="envia.php">
-                <input type="text" name="nome" id="" placeholder="Seu nome completo:" required>
-                <input type="text" name="email" id="" placeholder="Seu e-mail:" required>
-                <textarea name="mensagem" id="" placeholder="Sua mensagem" required></textarea>
-                <div class="btn-enviar"><input type="submit" value="Enviar"></div>
-            </form>
-    
-        </div>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Você pode me encontrar nas redes sociais ou enviar um email para <a href="rafaelshort@hotmail.com">rafaelshort@hotmail.com</a>.</p>
     </section>
 
     <footer>
-        <div class="footer_section">
-            <div class="footer_head">
-                <div class="flex">
-                    <div class="footer_logo">
-                        <h2 class="logo">Rafael Short</h2>
-                    </div>
-                    <div class="social">
-                        <a href="https://github.com/RafaelShort"><i class='bx bxl-github'></i></a>
-                        <a href="https://www.linkedin.com/in/rafael-short-silva/"><i class='bx bxl-linkedin'></i></a>
-                    </div>
-                </div>
+        <div class="footer-content">
+            <p>&copy; 2024 Rafael Short. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="https://github.com/RafaelShort" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rafael-short-silva/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
             </div>
-
-            <div class="line_footer">
-                <a class="email" href="mailto:rafaelshort@hotmail.com">rafaelshort@hotmail.com</a>
-            </div>      
-
         </div>
     </footer>
 
+    <script src="script.js"></script> <!-- Importando o script -->
 </body>
-
 </html>

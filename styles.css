@@ -135,6 +135,13 @@ a:hover {
         width: 100%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
     }
+    .projeto-card h3 {
+        font-size: 1.5em; /* Ajuste o tamanho do título */
+    }
+
+    .projeto-card p {
+        font-size: 0.9em; /* Ajuste o tamanho do texto do parágrafo */
+    }
 }
 
 @media (max-width: 768px) {
@@ -149,6 +156,13 @@ a:hover {
     .projeto-card {
         width: 100%; /* Os cards ocupam 100% da largura */
         margin: 10px 0; /* Margem vertical entre os cards */
+    }
+    .projeto-card h3 {
+        font-size: 1.3em; /* Tamanho ainda menor para telas muito pequenas */
+    }
+
+    .projeto-card p {
+        font-size: 0.8em; /* Tamanho ainda menor para telas muito pequenas */
     }
 }
 

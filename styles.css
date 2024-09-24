@@ -337,3 +337,7 @@ nav ul {
         font-size: 0.8em; /* Tamanho ainda menor para telas muito pequenas */
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}

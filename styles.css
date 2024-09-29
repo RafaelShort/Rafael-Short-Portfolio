@@ -312,6 +312,8 @@ nav ul {
 
     .projeto-card p {
         font-size: 0.9em; /* Ajuste o tamanho do texto do parágrafo */
+        text-align: justify;
+        text-justify: inter-word;
     }
 }
 

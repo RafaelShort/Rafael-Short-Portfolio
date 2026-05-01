@@ -1,6 +1,3 @@
-/* ============================================================
-   TRANSLATIONS
-   ============================================================ */
 const translations = {
     pt: {
         'nav-sobre':        'Sobre',
@@ -9,12 +6,10 @@ const translations = {
         'nav-skills':       'Habilidades',
         'nav-premios':      'Prêmios',
         'nav-contato':      'Contato',
-
         'hero-tag':          'Olá, eu sou',
-        'hero-desc':         'AI Developer na Ford Motor Company \u00a0•\u00a0 Mestrando em Deep Learning (UFBA) \u00a0•\u00a0 Engenheiro Eletricista',
+        'hero-desc':         'AI Developer na Ford Motor Company \u00a0\u2022\u00a0 Mestrando em Deep Learning (UFBA) \u00a0\u2022\u00a0 Engenheiro Eletricista',
         'hero-btn-projects': 'Ver Projetos',
         'hero-btn-cv':       'Download CV',
-
         phrases: [
             'AI Developer @ Ford',
             'M.Sc. em Deep Learning',
@@ -22,7 +17,6 @@ const translations = {
             'Mobile Developer',
             'Pesquisador em IA'
         ],
-
         'sobre-title': 'Sobre <span>Mim</span>',
         'sobre-p1':    '<strong>AI Developer na Ford Motor Company</strong>, desenvolvendo soluções de Inteligência Artificial com foco em LLMs, Sistemas Multi-Agentes e automação de processos com impacto global em workflows internos.',
         'sobre-p2':    '<strong>Engenheiro Eletricista pela UFBA</strong> com ênfase em Controle e Automação, e Mestrando em Engenharia da Computação (UFBA), pesquisando Deep Learning aplicado à Atribuição de Voz no grupo de pesquisa GPAD.',
@@ -34,7 +28,6 @@ const translations = {
         'info-researcher': 'Pesquisador – Grupo GPAD (Deep Learning)',
         'info-languages':  'Português (Nativo) • Inglês (Avançado)',
         'info-cv-btn':     'Baixar Currículo',
-
         'exp-title':  'Minha <span>Experiência</span>',
         'exp1-title': 'AI Developer',
         'exp1-date':  'Abr 2026 – Presente',
@@ -57,7 +50,6 @@ const translations = {
         'exp7-title': 'Bolsista PET Elétrica UFBA',
         'exp7-date':  'Set 2019 – Ago 2021',
         'exp7-desc':  'Atividades de Ensino, Pesquisa, Extensão e Gestão. Desenvolvimento de projetos de Automação e IoT com NodeMCU, cursos de Web Development e Python, produção do podcast Equaliza PET e conteúdo técnico.',
-
         'proj-title':        'Meus <span>Projetos</span>',
         'proj-subtitle':     'Explore meus projetos por categoria',
         'filter-all':        'Todos',
@@ -67,7 +59,6 @@ const translations = {
         'filter-research':   'Pesquisa Científica',
         'filter-embedded':   'Sist. Embarcados',
         'filter-python':     'Python & Desktop',
-
         'proj1-title':  'Multi-Agent AI',
         'proj1-desc':   'Integração de AI Agents em aplicação corporativa existente, expandindo suas capacidades com LLMs e frameworks especializados para orquestração de tarefas autônomas em ambiente empresarial global.',
         'proj1-status': 'Em andamento',
@@ -82,7 +73,7 @@ const translations = {
         'proj5-title':  'Curso DSP F28379D',
         'proj5-desc':   'Curso técnico em vídeo (YouTube) reunindo o principal conhecimento sobre o microcontrolador DSP Texas Instruments F28379D — material inédito em português. Tópicos: GPIO, Timers, Interrupções, PWM, ADC.',
         'proj5-status': 'Publicado',
-        'proj6-title':  'Conversor Texto → Código Morse',
+        'proj6-title':  'Conversor Texto para Código Morse',
         'proj6-desc':   'Conversor de texto para código Morse com interface gráfica (GUI) em Python utilizando a biblioteca Tkinter.',
         'proj7-title':  'Relegation Tracker – Brasileirão 2024',
         'proj7-desc':   'App Python com web scraping automático que busca dados em tempo real da UFMG para calcular combinações de resultados e probabilidades de rebaixamento de times da Série A.',
@@ -92,12 +83,10 @@ const translations = {
         'proj9-desc':   'App Python que testa a velocidade de digitação usando frases famosas de filmes, exibindo resultado em palavras por minuto e feedback ao usuário.',
         'proj10-title': 'Calculadora de Resistores',
         'proj10-desc':  'App Python com GUI que calcula as cores de um resistor com base em seu valor de resistência e vice-versa, usando o código de cores padrão da eletrônica.',
-
         'skills-title':  'Minhas <span>Habilidades</span>',
         'skills-group1': 'IA & Machine Learning',
         'skills-group2': 'Web & Mobile',
         'skills-group3': 'Ferramentas & Outros',
-
         'awards-title': 'Reconhecimentos & <span>Prêmios</span>',
         'award1-title': 'IEEE PES Exemplary Student Volunteer Award',
         'award1-from':  'IEEE Seção Nordeste Brasil · Out 2022',
@@ -108,7 +97,6 @@ const translations = {
         'award3-title': 'Classificado – Competição Nacional Poetize 2022',
         'award3-from':  'Vivara Editora Nacional · Mar 2022',
         'award3-desc':  'Classificação na Competição Nacional de Escrita Poetize 2022, reconhecimento das habilidades de escrita criativa e comunicação literária.',
-
         'contact-title':    'Entre em <span>Contato</span>',
         'contact-subtitle': 'Sempre aberto a novas conexões, colaborações e conversas sobre IA, desenvolvimento de software e inovação!',
         'contact-email':    'Email',
@@ -116,10 +104,8 @@ const translations = {
         'contact-github':   'GitHub',
         'contact-cv':       'Currículo',
         'contact-cv-sub':   'Download CV',
-
         'footer-text': 'Desenvolvido por <strong>Rafael Short</strong> · © 2025'
     },
-
     en: {
         'nav-sobre':        'About',
         'nav-experiencia':  'Experience',
@@ -127,12 +113,10 @@ const translations = {
         'nav-skills':       'Skills',
         'nav-premios':      'Awards',
         'nav-contato':      'Contact',
-
         'hero-tag':          'Hi, I am',
-        'hero-desc':         'AI Developer at Ford Motor Company \u00a0•\u00a0 M.Sc. in Deep Learning (UFBA) \u00a0•\u00a0 Electrical Engineer',
+        'hero-desc':         'AI Developer at Ford Motor Company \u00a0\u2022\u00a0 M.Sc. in Deep Learning (UFBA) \u00a0\u2022\u00a0 Electrical Engineer',
         'hero-btn-projects': 'View Projects',
         'hero-btn-cv':       'Download CV',
-
         phrases: [
             'AI Developer @ Ford',
             'M.Sc. in Deep Learning',
@@ -140,7 +124,6 @@ const translations = {
             'Mobile Developer',
             'AI Researcher'
         ],
-
         'sobre-title': 'About <span>Me</span>',
         'sobre-p1':    '<strong>AI Developer at Ford Motor Company</strong>, building Artificial Intelligence solutions focused on LLMs, Multi-Agent Systems and process automation with global impact on internal workflows.',
         'sobre-p2':    '<strong>Electrical Engineer from UFBA</strong> with emphasis in Control and Automation, and M.Sc. student in Computer Engineering (UFBA), researching Deep Learning applied to Speaker Diarization in the GPAD research group.',
@@ -152,7 +135,6 @@ const translations = {
         'info-researcher': 'Researcher – GPAD Group (Deep Learning)',
         'info-languages':  'Portuguese (Native) • English (Advanced)',
         'info-cv-btn':     'Download Resume',
-
         'exp-title':  'My <span>Experience</span>',
         'exp1-title': 'AI Developer',
         'exp1-date':  'Apr 2026 – Present',
@@ -168,14 +150,13 @@ const translations = {
         'exp4-desc':  'Coordination of the development and maintenance of the official IEEE Northeast Brazil Section app (Google Play Store), developing features in Flutter/Dart and backend solutions in Node.js.',
         'exp5-title': 'Intern – Energy Efficiency & R&D',
         'exp5-date':  'Oct 2022 – Oct 2024',
-        'exp5-desc':  'Technical and feasibility analysis of projects, process management and support for regulatory initiatives under ANEEL\'s PROPEE program. Lighting studies (ABNT NBR 5101) and Cost-Benefit Ratio calculations.',
+        'exp5-desc':  'Technical and feasibility analysis of projects, process management and support for regulatory initiatives under the ANEEL PROPEE program. Lighting studies (ABNT NBR 5101) and Cost-Benefit Ratio calculations.',
         'exp6-title': 'CNPq/PIBIC Research Scholar',
         'exp6-date':  'Sep 2021 – Sep 2022',
         'exp6-desc':  'Development of a Photovoltaic Panel Emulator based on a Buck-Boost DC-DC converter controlled via Texas Instruments DSP F28379D. Simulation and validation in Matlab, PSIM and Typhoon HIL.',
         'exp7-title': 'PET Elétrica UFBA Scholar',
         'exp7-date':  'Sep 2019 – Aug 2021',
         'exp7-desc':  'Teaching, Research, Extension and Management activities. Development of Automation and IoT projects with NodeMCU, Web Development and Python courses, production of the Equaliza PET podcast and technical content.',
-
         'proj-title':        'My <span>Projects</span>',
         'proj-subtitle':     'Explore my projects by category',
         'filter-all':        'All',
@@ -185,7 +166,6 @@ const translations = {
         'filter-research':   'Scientific Research',
         'filter-embedded':   'Embedded Systems',
         'filter-python':     'Python & Desktop',
-
         'proj1-title':  'Multi-Agent AI',
         'proj1-desc':   'Integration of AI Agents into an existing corporate application, expanding its capabilities with LLMs and specialized frameworks for orchestrating autonomous tasks in a global enterprise environment.',
         'proj1-status': 'In progress',
@@ -200,7 +180,7 @@ const translations = {
         'proj5-title':  'DSP F28379D Course',
         'proj5-desc':   'Technical video course (YouTube) covering the main knowledge about the Texas Instruments DSP F28379D microcontroller — unprecedented material in Portuguese. Topics: GPIO, Timers, Interrupts, PWM, ADC.',
         'proj5-status': 'Published',
-        'proj6-title':  'Text → Morse Code Converter',
+        'proj6-title':  'Text to Morse Code Converter',
         'proj6-desc':   'Text to Morse code converter with a graphical user interface (GUI) in Python using the Tkinter library.',
         'proj7-title':  'Relegation Tracker – Brasileirão 2024',
         'proj7-desc':   'Python app with automatic web scraping that fetches real-time data from UFMG to calculate result combinations and relegation probabilities for Série A teams.',
@@ -210,12 +190,10 @@ const translations = {
         'proj9-desc':   'Python app that tests typing speed using famous movie quotes, displaying results in words per minute with user feedback.',
         'proj10-title': 'Resistor Calculator',
         'proj10-desc':  'Python GUI app that calculates the color bands of a resistor based on its resistance value and vice versa, using the standard electronics color code.',
-
         'skills-title':  'My <span>Skills</span>',
         'skills-group1': 'AI & Machine Learning',
         'skills-group2': 'Web & Mobile',
         'skills-group3': 'Tools & Others',
-
         'awards-title': 'Recognitions & <span>Awards</span>',
         'award1-title': 'IEEE PES Exemplary Student Volunteer Award',
         'award1-from':  'IEEE Northeast Brazil Section · Oct 2022',
@@ -226,7 +204,6 @@ const translations = {
         'award3-title': 'Finalist – Poetize 2022 National Writing Competition',
         'award3-from':  'Vivara Editora Nacional · Mar 2022',
         'award3-desc':  'Selection in the Poetize 2022 National Writing Competition, recognition of creative writing skills and literary communication.',
-
         'contact-title':    'Get in <span>Touch</span>',
         'contact-subtitle': 'Always open to new connections, collaborations and conversations about AI, software development and innovation!',
         'contact-email':    'Email',
@@ -234,58 +211,43 @@ const translations = {
         'contact-github':   'GitHub',
         'contact-cv':       'Resume',
         'contact-cv-sub':   'Download CV',
-
         'footer-text': 'Developed by <strong>Rafael Short</strong> · © 2025'
     }
 };
 
-/* ============================================================
-   LANGUAGE TOGGLE
-   ============================================================ */
 let currentLang = 'pt';
 
 function toggleLanguage() {
     currentLang = currentLang === 'pt' ? 'en' : 'pt';
     applyTranslations();
     restartTyping();
-
     const btn = document.getElementById('langBtn');
     btn.textContent = currentLang === 'pt' ? 'EN' : 'PT';
 }
 
 function applyTranslations() {
     const t = translations[currentLang];
-
-    // Elementos com data-i18n (texto simples)
-    document.querySelectorAll('[data-i18n]').forEach(el => {
+    document.querySelectorAll('[data-i18n]').forEach(function(el) {
         const key = el.getAttribute('data-i18n');
         if (t[key] !== undefined) el.textContent = t[key];
     });
-
-    // Elementos com data-i18n-html (HTML interno)
-    document.querySelectorAll('[data-i18n-html]').forEach(el => {
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
         const key = el.getAttribute('data-i18n-html');
         if (t[key] !== undefined) el.innerHTML = t[key];
     });
 }
 
-/* ============================================================
-   MENU TOGGLE
-   ============================================================ */
 function toggleMenu() {
     document.getElementById('navbar').classList.toggle('active');
 }
 
-document.querySelectorAll('#menu li a').forEach(link => {
-    link.addEventListener('click', () => {
+document.querySelectorAll('#menu li a').forEach(function(link) {
+    link.addEventListener('click', function() {
         document.getElementById('navbar').classList.remove('active');
     });
 });
 
-/* ============================================================
-   SCROLL – BOTÃO VOLTAR AO TOPO & NAV ATIVO
-   ============================================================ */
-window.addEventListener('scroll', () => {
+window.addEventListener('scroll', function() {
     const btn = document.getElementById('scrollTopBtn');
     btn.classList.toggle('show', window.scrollY > 400);
     highlightNav();
@@ -299,10 +261,9 @@ function highlightNav() {
     const sections = document.querySelectorAll('section[id]');
     const links    = document.querySelectorAll('#menu li a');
     const pos      = window.scrollY + 80;
-
-    sections.forEach(section => {
+    sections.forEach(function(section) {
         if (pos >= section.offsetTop && pos < section.offsetTop + section.offsetHeight) {
-            links.forEach(link => {
+            links.forEach(function(link) {
                 link.classList.remove('active');
                 if (link.getAttribute('href') === '#' + section.id) {
                     link.classList.add('active');
@@ -312,9 +273,6 @@ function highlightNav() {
     });
 }
 
-/* ============================================================
-   EFEITO DE DIGITAÇÃO (HERO)
-   ============================================================ */
 let pIdx = 0, cIdx = 0, deleting = false;
 let typingTimer = null;
 const typedEl = document.getElementById('typed-text');
@@ -326,7 +284,6 @@ function getPhrases() {
 function typeLoop() {
     const phrases = getPhrases();
     const phrase  = phrases[pIdx];
-
     if (deleting) {
         typedEl.textContent = phrase.slice(0, cIdx - 1);
         cIdx--;
@@ -334,9 +291,7 @@ function typeLoop() {
         typedEl.textContent = phrase.slice(0, cIdx + 1);
         cIdx++;
     }
-
     let delay = deleting ? 45 : 95;
-
     if (!deleting && cIdx === phrase.length) {
         delay    = 2200;
         deleting = true;
@@ -345,7 +300,6 @@ function typeLoop() {
         pIdx     = (pIdx + 1) % phrases.length;
         delay    = 350;
     }
-
     typingTimer = setTimeout(typeLoop, delay);
 }
 
@@ -358,24 +312,18 @@ function restartTyping() {
     typingTimer = setTimeout(typeLoop, 400);
 }
 
-/* ============================================================
-   FILTRO DE PROJETOS
-   ============================================================ */
 const filterBtns   = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.pcard');
 
-filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
+filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        filterBtns.forEach(function(b) { b.classList.remove('active'); });
         btn.classList.add('active');
-
         const filter = btn.dataset.filter;
         let visibleIndex = 0;
-
-        projectCards.forEach(card => {
+        projectCards.forEach(function(card) {
             const cats = (card.dataset.category || '').split(' ');
             const show = filter === 'all' || cats.includes(filter);
-
             if (show) {
                 card.classList.remove('hidden');
                 card.style.animationDelay = (visibleIndex * 0.06) + 's';
@@ -390,37 +338,31 @@ filterBtns.forEach(btn => {
     });
 });
 
-/* ============================================================
-   SCROLL REVEAL – INTERSECTION OBSERVER
-   ============================================================ */
-const revealObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+const revealObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
         if (entry.isIntersecting) {
             const delay = entry.target.dataset.delay || 0;
-            setTimeout(() => {
+            setTimeout(function() {
                 entry.target.classList.add('visible');
             }, delay);
         }
     });
 }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 
-document.querySelectorAll('.tl-item').forEach((el, i) => {
+document.querySelectorAll('.tl-item').forEach(function(el, i) {
     el.dataset.delay = i * 80;
     revealObserver.observe(el);
 });
 
-document.querySelectorAll('.pcard, .award-card, .contato-card').forEach((el, i) => {
+document.querySelectorAll('.pcard, .award-card, .contato-card').forEach(function(el, i) {
     el.dataset.delay = i * 60;
     revealObserver.observe(el);
 });
 
-/* ============================================================
-   SKILL BARS – ANIMAÇÃO AO ENTRAR NA TELA
-   ============================================================ */
-const skillsObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+const skillsObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
         if (entry.isIntersecting) {
-            entry.target.querySelectorAll('.bar-fill').forEach(bar => {
+            entry.target.querySelectorAll('.bar-fill').forEach(function(bar) {
                 bar.style.width = bar.style.getPropertyValue('--w') ||
                     getComputedStyle(bar).getPropertyValue('--w').trim();
             });
@@ -432,21 +374,10 @@ const skillsObserver = new IntersectionObserver((entries) => {
 const skillsSection = document.getElementById('skills');
 if (skillsSection) skillsObserver.observe(skillsSection);
 
-/* ============================================================
-   CSS DE ANIMAÇÕES INJETADO DINAMICAMENTE
-   ============================================================ */
 const animStyle = document.createElement('style');
-animStyle.textContent = `
-    @keyframes cardAppear {
-        from { opacity: 0; transform: translateY(20px); }
-        to   { opacity: 1; transform: translateY(0);    }
-    }
-`;
+animStyle.textContent = '@keyframes cardAppear { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }';
 document.head.appendChild(animStyle);
 
-/* ============================================================
-   INICIALIZAÇÃO
-   ============================================================ */
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function() {
     setTimeout(typeLoop, 700);
 });

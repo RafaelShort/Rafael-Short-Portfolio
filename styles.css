@@ -1,6 +1,3 @@
-/* ============================================================
-   RESET & BASE
-   ============================================================ */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -19,9 +16,6 @@ body {
 
 section[id] { scroll-margin-top: 70px; }
 
-/* ============================================================
-   HEADER
-   ============================================================ */
 #header {
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -40,34 +34,13 @@ section[id] { scroll-margin-top: 70px; }
     justify-content: space-between;
 }
 
-/* ============================================================
-   LANGUAGE BUTTON
-   ============================================================ */
-.lang-btn {
-    font-size: 0.78em;
-    font-weight: 700;
-    color: #fff;
-    background: rgba(255,255,255,0.18);
-    border: 1.5px solid rgba(255,255,255,0.4);
-    border-radius: 20px;
-    padding: 5px 14px;
-    cursor: pointer;
-    letter-spacing: 1px;
-    transition: all 0.25s;
-    flex-shrink: 0;
-}
-
-.lang-btn:hover {
-    background: rgba(255,255,255,0.32);
-    border-color: #fff;
-    transform: scale(1.05);
-}
-
 nav {
     display: flex;
     align-items: center;
     gap: 20px;
     position: relative;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #menu {
@@ -120,9 +93,6 @@ nav {
     border: none;
 }
 
-/* ============================================================
-   HERO
-   ============================================================ */
 #hero {
     min-height: 100vh;
     background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 45%, #16213e 100%);
@@ -298,9 +268,6 @@ nav {
     50%       { transform: translateX(-50%) translateY(9px); }
 }
 
-/* ============================================================
-   SECTIONS BASE
-   ============================================================ */
 .section {
     max-width: 1200px;
     margin: 0 auto;
@@ -341,9 +308,6 @@ nav {
     margin-top: 12px;
 }
 
-/* ============================================================
-   SOBRE
-   ============================================================ */
 .sobre-grid {
     display: grid;
     grid-template-columns: 1fr 330px;
@@ -417,9 +381,6 @@ nav {
     margin-top: 2px;
 }
 
-/* ============================================================
-   TIMELINE
-   ============================================================ */
 .timeline {
     position: relative;
     max-width: 900px;
@@ -519,9 +480,6 @@ nav {
     margin-bottom: 12px;
 }
 
-/* ============================================================
-   PROJETOS – FILTROS
-   ============================================================ */
 .filter-bar {
     display: flex;
     flex-wrap: wrap;
@@ -551,9 +509,6 @@ nav {
     transform: translateY(-1px);
 }
 
-/* ============================================================
-   PROJETOS – CARDS
-   ============================================================ */
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -666,9 +621,6 @@ nav {
     color: #fff;
 }
 
-/* ============================================================
-   HABILIDADES
-   ============================================================ */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -724,9 +676,6 @@ nav {
     transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ============================================================
-   PREMIOS
-   ============================================================ */
 .awards-grid {
     display: flex;
     flex-direction: column;
@@ -783,9 +732,6 @@ nav {
     line-height: 1.72;
 }
 
-/* ============================================================
-   CONTATO
-   ============================================================ */
 .contato-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -839,9 +785,6 @@ nav {
     color: #777;
 }
 
-/* ============================================================
-   FOOTER
-   ============================================================ */
 footer {
     background: #1a1a2e;
     color: rgba(255,255,255,0.6);
@@ -876,9 +819,6 @@ footer {
     transform: scale(1.2);
 }
 
-/* ============================================================
-   SCROLL TO TOP
-   ============================================================ */
 .scroll-top-btn {
     position: fixed;
     bottom: 28px;
@@ -911,9 +851,6 @@ footer {
     transform: translateY(-3px);
 }
 
-/* ============================================================
-   SCROLL REVEAL
-   ============================================================ */
 .reveal-card {
     opacity: 0;
     transform: translateY(28px);
@@ -925,9 +862,6 @@ footer {
     transform: translateY(0);
 }
 
-/* ============================================================
-   RESPONSIVIDADE
-   ============================================================ */
 @media (max-width: 900px) {
     .sobre-grid {
         grid-template-columns: 1fr;
@@ -943,8 +877,8 @@ footer {
         display: none;
         position: absolute;
         top: 65px;
-        left: -30px;
-        right: -30px;
+        left: -20px;
+        right: -20px;
         background: #d44505;
         flex-direction: column;
         padding: 8px 0;

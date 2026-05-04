@@ -10,21 +10,19 @@
 </head>
 <body>
 
-    <!-- ======================== HEADER ======================== -->
     <header id="header">
         <div class="header-inner">
-            <button class="lang-btn" onclick="toggleLanguage()" id="langBtn">EN</button>
             <nav id="navbar">
                 <div class="menu-toggle" onclick="toggleMenu()">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul id="menu">
-                    <li><a href="#sobre"      data-i18n="nav-sobre">Sobre</a></li>
-                    <li><a href="#experiencia" data-i18n="nav-experiencia">Experiência</a></li>
-                    <li><a href="#projetos"   data-i18n="nav-projetos">Projetos</a></li>
-                    <li><a href="#skills"     data-i18n="nav-skills">Habilidades</a></li>
-                    <li><a href="#premios"    data-i18n="nav-premios">Prêmios</a></li>
-                    <li><a href="#contato"    data-i18n="nav-contato">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#premios">Prêmios</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
                 <div class="header-social">
                     <a href="https://github.com/RafaelShort" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
@@ -34,21 +32,19 @@
         </div>
     </header>
 
-    <!-- ======================== HERO ======================== -->
     <section id="hero">
         <div class="hero-content">
-            <span class="hero-tag" data-i18n="hero-tag">Olá, eu sou</span>
+            <span class="hero-tag">Olá, eu sou</span>
             <h1 class="hero-name">Rafael Short</h1>
             <p class="hero-typed">
                 <span id="typed-text"></span><span class="cursor">|</span>
             </p>
-            <p class="hero-desc" data-i18n="hero-desc">
+            <p class="hero-desc">
                 AI Developer na Ford Motor Company &nbsp;•&nbsp; Mestrando em Deep Learning (UFBA) &nbsp;•&nbsp; Engenheiro Eletricista
             </p>
             <div class="hero-ctas">
-                <a href="#projetos" class="btn-primary" data-i18n="hero-btn-projects">Ver Projetos</a>
-                <a href="https://drive.google.com/uc?export=download&id=1qx5Ur7OlFp3PE_6kaYQsCQNWzaXYZwNt"
-                   class="btn-outline" download data-i18n="hero-btn-cv">Download CV</a>
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="#" class="btn-outline cv-download">Download CV</a>
             </div>
             <div class="hero-socials">
                 <a href="https://github.com/RafaelShort" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
@@ -61,17 +57,16 @@
         </a>
     </section>
 
-    <!-- ======================== SOBRE ======================== -->
     <section id="sobre" class="section card-section">
         <div class="section-header">
-            <h2 data-i18n-html="sobre-title">Sobre <span>Mim</span></h2>
+            <h2>Sobre <span>Mim</span></h2>
             <div class="line"></div>
         </div>
         <div class="sobre-grid">
             <div class="sobre-text">
-                <p data-i18n-html="sobre-p1"><strong>AI Developer na Ford Motor Company</strong>, desenvolvendo soluções de Inteligência Artificial com foco em LLMs, Sistemas Multi-Agentes e automação de processos com impacto global em workflows internos.</p>
-                <p data-i18n-html="sobre-p2"><strong>Engenheiro Eletricista pela UFBA</strong> com ênfase em Controle e Automação, e Mestrando em Engenharia da Computação (UFBA), pesquisando Deep Learning aplicado à Atribuição de Voz no grupo de pesquisa GPAD.</p>
-                <p data-i18n-html="sobre-p3">Minha trajetória combina <strong>desenvolvimento de software, pesquisa científica e liderança técnica</strong>: desenvolvi aplicações mobile (Flutter/Dart) como Coordenador de Desenvolvimento Mobile no IEEE Nordeste, presidi o Capítulo IEEE Computer Society UFBA e contribuí em projetos de Eletrônica de Potência, Controle e Sistemas Embarcados usando Matlab, PSIM, C e DSPs Texas Instruments.</p>
+                <p><strong>AI Developer na Ford Motor Company</strong>, desenvolvendo soluções de Inteligência Artificial com foco em LLMs, Sistemas Multi-Agentes e automação de processos com impacto global em workflows internos.</p>
+                <p><strong>Engenheiro Eletricista pela UFBA</strong> com ênfase em Controle e Automação, e Mestrando em Engenharia da Computação (UFBA), pesquisando Deep Learning aplicado à Atribuição de Voz no grupo de pesquisa GPAD.</p>
+                <p>Minha trajetória combina <strong>desenvolvimento de software, pesquisa científica e liderança técnica</strong>: desenvolvi aplicações mobile (Flutter/Dart) como Coordenador de Desenvolvimento Mobile no IEEE Nordeste, presidi o Capítulo IEEE Computer Society UFBA e contribuí em projetos de Eletrônica de Potência, Controle e Sistemas Embarcados usando Matlab, PSIM, C e DSPs Texas Instruments.</p>
                 <div class="tag-group">
                     <span class="tag">Python</span>
                     <span class="tag">Machine Learning</span>
@@ -79,31 +74,29 @@
                     <span class="tag">LLMs</span>
                     <span class="tag">Multi-Agent Systems</span>
                     <span class="tag">Flutter</span>
-                    <span class="tag" data-i18n="tag-automation">Automação</span>
+                    <span class="tag">Automação</span>
                     <span class="tag">IoT</span>
                     <span class="tag">Cloud Computing</span>
                     <span class="tag">Web Development</span>
                 </div>
             </div>
             <div class="sobre-info-box">
-                <div class="info-row"><i class="fas fa-map-marker-alt"></i><span data-i18n="info-location">Salvador, Bahia, Brasil</span></div>
-                <div class="info-row"><i class="fas fa-briefcase"></i><span data-i18n="info-job">Ford Motor Company – AI Developer</span></div>
-                <div class="info-row"><i class="fas fa-graduation-cap"></i><span data-i18n="info-msc">M.Sc. em Eng. da Computação – UFBA</span></div>
-                <div class="info-row"><i class="fas fa-flask"></i><span data-i18n="info-researcher">Pesquisador – Grupo GPAD (Deep Learning)</span></div>
-                <div class="info-row"><i class="fas fa-language"></i><span data-i18n="info-languages">Português (Nativo) • Inglês (Avançado)</span></div>
+                <div class="info-row"><i class="fas fa-map-marker-alt"></i><span>Salvador, Bahia, Brasil</span></div>
+                <div class="info-row"><i class="fas fa-briefcase"></i><span>Ford Motor Company – AI Developer</span></div>
+                <div class="info-row"><i class="fas fa-graduation-cap"></i><span>M.Sc. em Eng. da Computação – UFBA</span></div>
+                <div class="info-row"><i class="fas fa-flask"></i><span>Pesquisador – Grupo GPAD (Deep Learning)</span></div>
+                <div class="info-row"><i class="fas fa-language"></i><span>Português (Nativo) • Inglês (Avançado)</span></div>
                 <div class="info-row"><i class="fas fa-envelope"></i><span>rafaelshort@hotmail.com</span></div>
-                <a href="https://drive.google.com/uc?export=download&id=1qx5Ur7OlFp3PE_6kaYQsCQNWzaXYZwNt"
-                   class="btn-primary btn-mt" download>
-                    <i class="fas fa-download"></i> <span data-i18n="info-cv-btn">Baixar Currículo</span>
+                <a href="#" class="btn-primary btn-mt cv-download">
+                    <i class="fas fa-download"></i> <span>Baixar Currículo</span>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- ======================== EXPERIÊNCIA ======================== -->
     <section id="experiencia" class="section">
         <div class="section-header">
-            <h2 data-i18n-html="exp-title">Minha <span>Experiência</span></h2>
+            <h2>Minha <span>Experiência</span></h2>
             <div class="line"></div>
         </div>
         <div class="timeline">
@@ -113,12 +106,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp1-title">AI Developer</h3>
+                            <h3>AI Developer</h3>
                             <span class="tl-company"><i class="fas fa-building"></i> Ford Motor Company</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp1-date">Abr 2026 – Presente</span>
+                        <span class="tl-date">Abr 2026 – Presente</span>
                     </div>
-                    <p data-i18n="exp1-desc">Desenvolvimento de soluções de Inteligência Artificial com foco na integração de AI Agents em aplicações corporativas, em colaboração contínua com equipes globais. Setup e manutenção de pipelines CI/CD, versionamento via GitHub e documentação técnica.</p>
+                    <p>Desenvolvimento de soluções de Inteligência Artificial com foco na integração de AI Agents em aplicações corporativas, em colaboração contínua com equipes globais. Setup e manutenção de pipelines CI/CD, versionamento via GitHub e documentação técnica.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">LLMs</span><span class="tag-sm">Multi-Agent</span><span class="tag-sm">APIs</span><span class="tag-sm">CI/CD</span><span class="tag-sm">GitHub</span>
                     </div>
@@ -130,12 +123,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp2-title">Feature System Researcher</h3>
+                            <h3>Feature System Researcher</h3>
                             <span class="tl-company"><i class="fas fa-building"></i> Ford Motor Company</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp2-date">Jan 2025 – Abr 2026</span>
+                        <span class="tl-date">Jan 2025 – Abr 2026</span>
                     </div>
-                    <p data-i18n="exp2-desc">Pesquisa e desenvolvimento de software na Features Team com foco em automação e integração de sistemas. Atuação no projeto PDL Alert, gerando significativa otimização de workflows com impacto global nos processos da empresa.</p>
+                    <p>Pesquisa e desenvolvimento de software na Features Team com foco em automação e integração de sistemas. Atuação no projeto PDL Alert, gerando significativa otimização de workflows com impacto global nos processos da empresa.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">APIs</span><span class="tag-sm">Automação</span><span class="tag-sm">DevOps</span><span class="tag-sm">CI/CD</span>
                     </div>
@@ -147,12 +140,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp3-title">Presidente</h3>
+                            <h3>Presidente</h3>
                             <span class="tl-company"><i class="fas fa-users"></i> IEEE Computer Society UFBA</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp3-date">Dez 2023 – Fev 2025</span>
+                        <span class="tl-date">Dez 2023 – Fev 2025</span>
                     </div>
-                    <p data-i18n="exp3-desc">Liderança do Capítulo IEEE Computer Society UFBA, coordenação de equipe multidisciplinar de voluntários, organização de eventos técnicos, workshops e cursos, e construção de parcerias com empresas e comunidade acadêmica.</p>
+                    <p>Liderança do Capítulo IEEE Computer Society UFBA, coordenação de equipe multidisciplinar de voluntários, organização de eventos técnicos, workshops e cursos, e construção de parcerias com empresas e comunidade acadêmica.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Liderança</span><span class="tag-sm">Gestão de Equipes</span><span class="tag-sm">Eventos Técnicos</span>
                     </div>
@@ -164,12 +157,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp4-title">Coordenador de Desenvolvimento Mobile</h3>
+                            <h3>Coordenador de Desenvolvimento Mobile</h3>
                             <span class="tl-company"><i class="fas fa-mobile-alt"></i> IEEE Seção Nordeste Brasil</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp4-date">Jan 2024 – Dez 2024</span>
+                        <span class="tl-date">Jan 2024 – Dez 2024</span>
                     </div>
-                    <p data-i18n="exp4-desc">Coordenação do desenvolvimento e manutenção do aplicativo oficial da IEEE Seção Nordeste Brasil (Google Play Store), com desenvolvimento de features em Flutter/Dart e soluções backend em Node.js.</p>
+                    <p>Coordenação do desenvolvimento e manutenção do aplicativo oficial da IEEE Seção Nordeste Brasil (Google Play Store), com desenvolvimento de features em Flutter/Dart e soluções backend em Node.js.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Flutter</span><span class="tag-sm">Dart</span><span class="tag-sm">Node.js</span><span class="tag-sm">Firebase</span>
                     </div>
@@ -181,12 +174,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp5-title">Estagiário – Eficiência Energética &amp; P&amp;D</h3>
+                            <h3>Estagiário – Eficiência Energética &amp; P&amp;D</h3>
                             <span class="tl-company"><i class="fas fa-bolt"></i> Neoenergia Coelba</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp5-date">Out 2022 – Out 2024</span>
+                        <span class="tl-date">Out 2022 – Out 2024</span>
                     </div>
-                    <p data-i18n="exp5-desc">Análise técnica e de viabilidade de projetos, gestão de processos e suporte a iniciativas regulatórias do programa PROPEE da ANEEL. Estudos de iluminação (ABNT NBR 5101) e cálculos de Relação Custo-Benefício.</p>
+                    <p>Análise técnica e de viabilidade de projetos, gestão de processos e suporte a iniciativas regulatórias do programa PROPEE da ANEEL. Estudos de iluminação (ABNT NBR 5101) e cálculos de Relação Custo-Benefício.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Análise Técnica</span><span class="tag-sm">P&D</span><span class="tag-sm">Eficiência Energética</span><span class="tag-sm">ANEEL</span>
                     </div>
@@ -198,12 +191,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp6-title">Bolsista CNPq/PIBIC – Iniciação Científica</h3>
+                            <h3>Bolsista CNPq/PIBIC – Iniciação Científica</h3>
                             <span class="tl-company"><i class="fas fa-flask"></i> UFBA – LABEFEA / G-SEPi</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp6-date">Set 2021 – Set 2022</span>
+                        <span class="tl-date">Set 2021 – Set 2022</span>
                     </div>
-                    <p data-i18n="exp6-desc">Desenvolvimento de um Emulador de Painel Fotovoltaico baseado em conversor Buck-Boost DC-DC com controle via DSP Texas Instruments F28379D. Simulação e validação em Matlab, PSIM e Typhoon HIL.</p>
+                    <p>Desenvolvimento de um Emulador de Painel Fotovoltaico baseado em conversor Buck-Boost DC-DC com controle via DSP Texas Instruments F28379D. Simulação e validação em Matlab, PSIM e Typhoon HIL.</p>
                     <div class="tag-group">
                         <span class="tag-sm">C</span><span class="tag-sm">Matlab</span><span class="tag-sm">PSIM</span><span class="tag-sm">DSP F28379D</span><span class="tag-sm">Controle PID</span><span class="tag-sm">Typhoon HIL</span>
                     </div>
@@ -215,12 +208,12 @@
                 <div class="tl-card">
                     <div class="tl-top">
                         <div>
-                            <h3 data-i18n="exp7-title">Bolsista PET Elétrica UFBA</h3>
+                            <h3>Bolsista PET Elétrica UFBA</h3>
                             <span class="tl-company"><i class="fas fa-university"></i> PET – MEC / UFBA</span>
                         </div>
-                        <span class="tl-date" data-i18n="exp7-date">Set 2019 – Ago 2021</span>
+                        <span class="tl-date">Set 2019 – Ago 2021</span>
                     </div>
-                    <p data-i18n="exp7-desc">Atividades de Ensino, Pesquisa, Extensão e Gestão. Desenvolvimento de projetos de Automação e IoT com NodeMCU, cursos de Web Development e Python, produção do podcast Equaliza PET e conteúdo técnico.</p>
+                    <p>Atividades de Ensino, Pesquisa, Extensão e Gestão. Desenvolvimento de projetos de Automação e IoT com NodeMCU, cursos de Web Development e Python, produção do podcast Equaliza PET e conteúdo técnico.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">IoT</span><span class="tag-sm">NodeMCU</span><span class="tag-sm">Web Dev</span><span class="tag-sm">C</span>
                     </div>
@@ -230,72 +223,67 @@
         </div>
     </section>
 
-    <!-- ======================== PROJETOS ======================== -->
     <section id="projetos" class="section card-section">
         <div class="section-header">
-            <h2 data-i18n-html="proj-title">Meus <span>Projetos</span></h2>
+            <h2>Meus <span>Projetos</span></h2>
             <div class="line"></div>
-            <p class="section-sub" data-i18n="proj-subtitle">Explore meus projetos por categoria</p>
+            <p class="section-sub">Explore meus projetos por categoria</p>
         </div>
 
-        <!-- Filtros -->
         <div class="filter-bar">
-            <button class="filter-btn active" data-filter="all"       data-i18n="filter-all">Todos</button>
-            <button class="filter-btn"         data-filter="ai"        data-i18n="filter-ai">IA &amp; LLMs</button>
-            <button class="filter-btn"         data-filter="automation" data-i18n="filter-automation">Automação</button>
-            <button class="filter-btn"         data-filter="mobile"    data-i18n="filter-mobile">Mobile</button>
-            <button class="filter-btn"         data-filter="research"  data-i18n="filter-research">Pesquisa Científica</button>
-            <button class="filter-btn"         data-filter="embedded"  data-i18n="filter-embedded">Sist. Embarcados</button>
-            <button class="filter-btn"         data-filter="python"    data-i18n="filter-python">Python &amp; Desktop</button>
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn"         data-filter="ai">IA &amp; LLMs</button>
+            <button class="filter-btn"         data-filter="automation">Automação</button>
+            <button class="filter-btn"         data-filter="mobile">Mobile</button>
+            <button class="filter-btn"         data-filter="research">Pesquisa Científica</button>
+            <button class="filter-btn"         data-filter="embedded">Sist. Embarcados</button>
+            <button class="filter-btn"         data-filter="python">Python &amp; Desktop</button>
         </div>
 
         <div class="cards-grid">
 
-            <!-- Multi-Agent AI -->
             <div class="pcard reveal-card" data-category="ai">
                 <div class="pcard-header gradient-ai">
                     <i class="fas fa-robot"></i>
                 </div>
                 <div class="pcard-body">
                     <span class="badge">Ford Motor Company</span>
-                    <h3 data-i18n="proj1-title">Multi-Agent AI</h3>
-                    <p data-i18n="proj1-desc">Integração de AI Agents em aplicação corporativa existente, expandindo suas capacidades com LLMs e frameworks especializados para orquestração de tarefas autônomas em ambiente empresarial global.</p>
+                    <h3>Multi-Agent AI</h3>
+                    <p>Integração de AI Agents em aplicação corporativa existente, expandindo suas capacidades com LLMs e frameworks especializados para orquestração de tarefas autônomas em ambiente empresarial global.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">LLMs</span><span class="tag-sm">Multi-Agent</span><span class="tag-sm">APIs</span><span class="tag-sm">DevOps</span><span class="tag-sm">CI/CD</span>
                     </div>
                     <div class="pcard-footer">
-                        <span class="status-badge" data-i18n="proj1-status">Em andamento</span>
+                        <span class="status-badge">Em andamento</span>
                     </div>
                 </div>
             </div>
 
-            <!-- PDL Alert -->
             <div class="pcard reveal-card" data-category="automation">
                 <div class="pcard-header gradient-auto">
                     <i class="fas fa-cogs"></i>
                 </div>
                 <div class="pcard-body">
                     <span class="badge">Ford Motor Company</span>
-                    <h3 data-i18n="proj2-title">PDL Alert</h3>
-                    <p data-i18n="proj2-desc">Otimização de fluxos de trabalho internos através de integração e automação entre sistemas corporativos via APIs, gerando significativa economia de tempo com impacto global nos processos da empresa.</p>
+                    <h3>PDL Alert</h3>
+                    <p>Otimização de fluxos de trabalho internos através de integração e automação entre sistemas corporativos via APIs, gerando significativa economia de tempo com impacto global nos processos da empresa.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">APIs</span><span class="tag-sm">Automação</span><span class="tag-sm">DevOps</span><span class="tag-sm">CI/CD</span>
                     </div>
                     <div class="pcard-footer">
-                        <span class="status-badge" data-i18n="proj2-status">Concluído</span>
+                        <span class="status-badge">Concluído</span>
                     </div>
                 </div>
             </div>
 
-            <!-- IEEE App -->
             <div class="pcard reveal-card" data-category="mobile">
                 <div class="pcard-header img-header">
                     <img src="img/logo_app_ieee_secao_nordeste_brasil.jpeg" alt="App IEEE Seção Nordeste Brasil">
                 </div>
                 <div class="pcard-body">
                     <span class="badge">IEEE Nordeste</span>
-                    <h3 data-i18n="proj3-title">App IEEE Seção Nordeste Brasil</h3>
-                    <p data-i18n="proj3-desc">Aplicativo móvel oficial da IEEE Seção Nordeste Brasil disponível na Google Play Store, servindo membros e participantes de eventos em toda a região Nordeste, com backend em Node.js e arquitetura escalável.</p>
+                    <h3>App IEEE Seção Nordeste Brasil</h3>
+                    <p>Aplicativo móvel oficial da IEEE Seção Nordeste Brasil disponível na Google Play Store, servindo membros e participantes de eventos em toda a região Nordeste, com backend em Node.js e arquitetura escalável.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Flutter</span><span class="tag-sm">Dart</span><span class="tag-sm">Node.js</span><span class="tag-sm">Firebase</span>
                     </div>
@@ -308,50 +296,47 @@
                 </div>
             </div>
 
-            <!-- Photovoltaic Emulator -->
             <div class="pcard reveal-card" data-category="research embedded">
                 <div class="pcard-header gradient-research">
                     <i class="fas fa-solar-panel"></i>
                 </div>
                 <div class="pcard-body">
                     <span class="badge">CNPq / PIBIC</span>
-                    <h3 data-i18n="proj4-title">Emulador de Painel Fotovoltaico</h3>
-                    <p data-i18n="proj4-desc">Iniciação Científica: emulador baseado em conversor Buck-Boost DC-DC capaz de reproduzir o comportamento de painéis solares sob diferentes condições ambientais. Resultados validados com dados do fabricante via DSP F28379D.</p>
+                    <h3>Emulador de Painel Fotovoltaico</h3>
+                    <p>Iniciação Científica: emulador baseado em conversor Buck-Boost DC-DC capaz de reproduzir o comportamento de painéis solares sob diferentes condições ambientais. Resultados validados com dados do fabricante via DSP F28379D.</p>
                     <div class="tag-group">
                         <span class="tag-sm">C</span><span class="tag-sm">Matlab</span><span class="tag-sm">PSIM</span><span class="tag-sm">DSP F28379D</span><span class="tag-sm">PID</span><span class="tag-sm">Typhoon HIL</span>
                     </div>
                     <div class="pcard-footer">
-                        <span class="status-badge" data-i18n="proj4-status">Concluído</span>
+                        <span class="status-badge">Concluído</span>
                     </div>
                 </div>
             </div>
 
-            <!-- DSP Course -->
             <div class="pcard reveal-card" data-category="embedded research">
                 <div class="pcard-header gradient-embedded">
                     <i class="fas fa-microchip"></i>
                 </div>
                 <div class="pcard-body">
                     <span class="badge">G-SEPi / IEEE PES UFBA</span>
-                    <h3 data-i18n="proj5-title">Curso DSP F28379D</h3>
-                    <p data-i18n="proj5-desc">Curso técnico em vídeo (YouTube) reunindo o principal conhecimento sobre o microcontrolador DSP Texas Instruments F28379D — material inédito em português. Tópicos: GPIO, Timers, Interrupções, PWM, ADC.</p>
+                    <h3>Curso DSP F28379D</h3>
+                    <p>Curso técnico em vídeo (YouTube) reunindo o principal conhecimento sobre o microcontrolador DSP Texas Instruments F28379D — material inédito em português. Tópicos: GPIO, Timers, Interrupções, PWM, ADC.</p>
                     <div class="tag-group">
                         <span class="tag-sm">C</span><span class="tag-sm">DSP</span><span class="tag-sm">Embarcados</span><span class="tag-sm">Texas Instruments</span>
                     </div>
                     <div class="pcard-footer">
-                        <span class="status-badge" data-i18n="proj5-status">Publicado</span>
+                        <span class="status-badge">Publicado</span>
                     </div>
                 </div>
             </div>
 
-            <!-- Morse Code -->
             <div class="pcard reveal-card" data-category="python">
                 <div class="pcard-header img-header">
                     <img src="img/imagem_codigo_morse_projeto.PNG" alt="Conversor de Código Morse">
                 </div>
                 <div class="pcard-body">
-                    <h3 data-i18n="proj6-title">Conversor Texto → Código Morse</h3>
-                    <p data-i18n="proj6-desc">Conversor de texto para código Morse com interface gráfica (GUI) em Python utilizando a biblioteca Tkinter.</p>
+                    <h3>Conversor Texto → Código Morse</h3>
+                    <p>Conversor de texto para código Morse com interface gráfica (GUI) em Python utilizando a biblioteca Tkinter.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">Tkinter</span><span class="tag-sm">GUI</span>
                     </div>
@@ -363,14 +348,13 @@
                 </div>
             </div>
 
-            <!-- Relegation Tracker -->
             <div class="pcard reveal-card" data-category="python">
                 <div class="pcard-header img-header">
                     <img src="img/relegation_tracker_2024.PNG" alt="Relegation Tracker">
                 </div>
                 <div class="pcard-body">
-                    <h3 data-i18n="proj7-title">Relegation Tracker – Brasileirão 2024</h3>
-                    <p data-i18n="proj7-desc">App Python com web scraping automático que busca dados em tempo real da UFMG para calcular combinações de resultados e probabilidades de rebaixamento de times da Série A.</p>
+                    <h3>Relegation Tracker – Brasileirão 2024</h3>
+                    <p>App Python com web scraping automático que busca dados em tempo real da UFMG para calcular combinações de resultados e probabilidades de rebaixamento de times da Série A.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">BeautifulSoup4</span><span class="tag-sm">Tkinter</span><span class="tag-sm">Web Scraping</span>
                     </div>
@@ -382,14 +366,13 @@
                 </div>
             </div>
 
-            <!-- Tic Tac Toe -->
             <div class="pcard reveal-card" data-category="python">
                 <div class="pcard-header img-header">
                     <img src="img/imagem_jogo_velha.PNG" alt="Jogo da Velha">
                 </div>
                 <div class="pcard-body">
-                    <h3 data-i18n="proj8-title">Jogo da Velha</h3>
-                    <p data-i18n="proj8-desc">Implementação clássica do Jogo da Velha em Python com interface gráfica desenvolvida com a biblioteca Tkinter.</p>
+                    <h3>Jogo da Velha</h3>
+                    <p>Implementação clássica do Jogo da Velha em Python com interface gráfica desenvolvida com a biblioteca Tkinter.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">Tkinter</span><span class="tag-sm">GUI</span>
                     </div>
@@ -401,14 +384,13 @@
                 </div>
             </div>
 
-            <!-- Speed Typing Test -->
             <div class="pcard reveal-card" data-category="python">
                 <div class="pcard-header img-header">
                     <img src="img/imagem_teste_velocidade_digitacao.PNG" alt="Teste de Velocidade de Digitação">
                 </div>
                 <div class="pcard-body">
-                    <h3 data-i18n="proj9-title">Teste de Velocidade de Digitação</h3>
-                    <p data-i18n="proj9-desc">App Python que testa a velocidade de digitação usando frases famosas de filmes, exibindo resultado em palavras por minuto e feedback ao usuário.</p>
+                    <h3>Teste de Velocidade de Digitação</h3>
+                    <p>App Python que testa a velocidade de digitação usando frases famosas de filmes, exibindo resultado em palavras por minuto e feedback ao usuário.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">Tkinter</span><span class="tag-sm">GUI</span>
                     </div>
@@ -420,14 +402,13 @@
                 </div>
             </div>
 
-            <!-- Resistor Calculator -->
             <div class="pcard reveal-card" data-category="python">
                 <div class="pcard-header img-header">
                     <img src="img/imagem_calculadora_resistores1.PNG" alt="Calculadora de Resistores">
                 </div>
                 <div class="pcard-body">
-                    <h3 data-i18n="proj10-title">Calculadora de Resistores</h3>
-                    <p data-i18n="proj10-desc">App Python com GUI que calcula as cores de um resistor com base em seu valor de resistência e vice-versa, usando o código de cores padrão da eletrônica.</p>
+                    <h3>Calculadora de Resistores</h3>
+                    <p>App Python com GUI que calcula as cores de um resistor com base em seu valor de resistência e vice-versa, usando o código de cores padrão da eletrônica.</p>
                     <div class="tag-group">
                         <span class="tag-sm">Python</span><span class="tag-sm">Tkinter</span><span class="tag-sm">Eletrônica</span>
                     </div>
@@ -442,10 +423,9 @@
         </div>
     </section>
 
-    <!-- ======================== SKILLS ======================== -->
     <section id="skills" class="section card-section">
         <div class="section-header">
-            <h2 data-i18n-html="skills-title">Minhas <span>Habilidades</span></h2>
+            <h2>Minhas <span>Habilidades</span></h2>
             <div class="line"></div>
         </div>
 
@@ -454,7 +434,7 @@
             <div class="skills-group">
                 <h3 class="skills-group-title">
                     <i class="fas fa-robot"></i>
-                    <span data-i18n="skills-group1">IA &amp; Machine Learning</span>
+                    <span>IA &amp; Machine Learning</span>
                 </h3>
                 <div class="skill-list">
                     <div class="skill_bar">
@@ -483,7 +463,7 @@
             <div class="skills-group">
                 <h3 class="skills-group-title">
                     <i class="fas fa-code"></i>
-                    <span data-i18n="skills-group2">Web &amp; Mobile</span>
+                    <span>Web &amp; Mobile</span>
                 </h3>
                 <div class="skill-list">
                     <div class="skill_bar">
@@ -512,7 +492,7 @@
             <div class="skills-group">
                 <h3 class="skills-group-title">
                     <i class="fas fa-tools"></i>
-                    <span data-i18n="skills-group3">Ferramentas &amp; Outros</span>
+                    <span>Ferramentas &amp; Outros</span>
                 </h3>
                 <div class="skill-list">
                     <div class="skill_bar">
@@ -537,10 +517,9 @@
         </div>
     </section>
 
-    <!-- ======================== PRÊMIOS ======================== -->
     <section id="premios" class="section card-section">
         <div class="section-header">
-            <h2 data-i18n-html="awards-title">Reconhecimentos &amp; <span>Prêmios</span></h2>
+            <h2>Reconhecimentos &amp; <span>Prêmios</span></h2>
             <div class="line"></div>
         </div>
         <div class="awards-grid">
@@ -548,69 +527,66 @@
             <div class="award-card reveal-card">
                 <div class="award-icon"><i class="fas fa-trophy"></i></div>
                 <div class="award-info">
-                    <h3 data-i18n="award1-title">IEEE PES Exemplary Student Volunteer Award</h3>
-                    <span class="award-from" data-i18n="award1-from">IEEE Seção Nordeste Brasil · Out 2022</span>
-                    <p data-i18n="award1-desc">Reconhecimento pela excelência em liderança estudantil, contribuição técnica e trabalho voluntário no ecossistema IEEE como bolsista de Iniciação Científica e Webmaster do Capítulo PES UFBA.</p>
+                    <h3>IEEE PES Exemplary Student Volunteer Award</h3>
+                    <span class="award-from">IEEE Seção Nordeste Brasil · Out 2022</span>
+                    <p>Reconhecimento pela excelência em liderança estudantil, contribuição técnica e trabalho voluntário no ecossistema IEEE como bolsista de Iniciação Científica e Webmaster do Capítulo PES UFBA.</p>
                 </div>
             </div>
 
             <div class="award-card reveal-card">
                 <div class="award-icon"><i class="fas fa-medal"></i></div>
                 <div class="award-info">
-                    <h3 data-i18n="award2-title">Medalha &amp; Menção Honrosa – OBAQ</h3>
-                    <span class="award-from" data-i18n="award2-from">UFBA · 2016, 2017 e 2018</span>
-                    <p data-i18n="award2-desc">Medalha na Olimpíada Baiana de Química (OBAQ) em 2016 e Menção Honrosa em 2017 e 2018, demonstrando excelência em raciocínio lógico e fundamentos científicos.</p>
+                    <h3>Medalha &amp; Menção Honrosa – OBAQ</h3>
+                    <span class="award-from">UFBA · 2016, 2017 e 2018</span>
+                    <p>Medalha na Olimpíada Baiana de Química (OBAQ) em 2016 e Menção Honrosa em 2017 e 2018, demonstrando excelência em raciocínio lógico e fundamentos científicos.</p>
                 </div>
             </div>
 
             <div class="award-card reveal-card">
                 <div class="award-icon"><i class="fas fa-pen-fancy"></i></div>
                 <div class="award-info">
-                    <h3 data-i18n="award3-title">Classificado – Competição Nacional Poetize 2022</h3>
-                    <span class="award-from" data-i18n="award3-from">Vivara Editora Nacional · Mar 2022</span>
-                    <p data-i18n="award3-desc">Classificação na Competição Nacional de Escrita Poetize 2022, reconhecimento das habilidades de escrita criativa e comunicação literária.</p>
+                    <h3>Classificado – Competição Nacional Poetize 2022</h3>
+                    <span class="award-from">Vivara Editora Nacional · Mar 2022</span>
+                    <p>Classificação na Competição Nacional de Escrita Poetize 2022, reconhecimento das habilidades de escrita criativa e comunicação literária.</p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- ======================== CONTATO ======================== -->
     <section id="contato" class="section card-section">
         <div class="section-header">
-            <h2 data-i18n-html="contact-title">Entre em <span>Contato</span></h2>
+            <h2>Entre em <span>Contato</span></h2>
             <div class="line"></div>
-            <p class="section-sub" data-i18n="contact-subtitle">Sempre aberto a novas conexões, colaborações e conversas sobre IA, desenvolvimento de software e inovação!</p>
+            <p class="section-sub">Sempre aberto a novas conexões, colaborações e conversas sobre IA, desenvolvimento de software e inovação!</p>
         </div>
         <div class="contato-grid">
             <a href="mailto:rafaelshort@hotmail.com" class="contato-card reveal-card">
                 <div class="contato-icon"><i class="fas fa-envelope"></i></div>
-                <h4 data-i18n="contact-email">Email</h4>
+                <h4>Email</h4>
                 <p>rafaelshort@hotmail.com</p>
             </a>
             <a href="https://www.linkedin.com/in/rafael-short-silva/" target="_blank" class="contato-card reveal-card">
                 <div class="contato-icon"><i class="fab fa-linkedin"></i></div>
-                <h4 data-i18n="contact-linkedin">LinkedIn</h4>
+                <h4>LinkedIn</h4>
                 <p>rafael-short-silva</p>
             </a>
             <a href="https://github.com/RafaelShort" target="_blank" class="contato-card reveal-card">
                 <div class="contato-icon"><i class="fab fa-github"></i></div>
-                <h4 data-i18n="contact-github">GitHub</h4>
+                <h4>GitHub</h4>
                 <p>RafaelShort</p>
             </a>
-            <a href="https://drive.google.com/uc?export=download&id=1qx5Ur7OlFp3PE_6kaYQsCQNWzaXYZwNt"
-               class="contato-card reveal-card" download>
+            <a href="#" class="contato-card reveal-card cv-download">
                 <div class="contato-icon"><i class="fas fa-file-alt"></i></div>
-                <h4 data-i18n="contact-cv">Currículo</h4>
-                <p data-i18n="contact-cv-sub">Download CV</p>
+                <h4>Currículo</h4>
+                <p>Download CV</p>
             </a>
         </div>
     </section>
 
-    <!-- ======================== FOOTER ======================== -->
     <footer>
         <div class="footer-inner">
-            <p data-i18n-html="footer-text">Desenvolvido por <strong>Rafael Short</strong> · © 2025</p>
+            <p>Desenvolvido por <strong>Rafael Short</strong> · © 2025</p>
             <div class="footer-social">
                 <a href="https://github.com/RafaelShort" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/rafael-short-silva/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
@@ -618,7 +594,6 @@
         </div>
     </footer>
 
-    <!-- Scroll to top -->
     <button class="scroll-top-btn" id="scrollTopBtn" onclick="scrollToTop()" title="Voltar ao topo">
         <i class="fas fa-arrow-up"></i>
     </button>

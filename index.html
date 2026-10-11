@@ -233,6 +233,8 @@
         <div class="filter-bar">
             <button class="filter-btn active" data-filter="all">Todos</button>
             <button class="filter-btn"         data-filter="ai">IA &amp; LLMs</button>
+            <button class="filter-btn"         data-filter="search">Busca &amp; IR</button>
+            <button class="filter-btn"         data-filter="data-eng">Eng. de Dados</button>
             <button class="filter-btn"         data-filter="automation">Automação</button>
             <button class="filter-btn"         data-filter="mobile">Mobile</button>
             <button class="filter-btn"         data-filter="research">Pesquisa Científica</button>
@@ -241,6 +243,78 @@
         </div>
 
         <div class="cards-grid">
+
+            <div class="pcard reveal-card" data-category="search ai">
+                <div class="pcard-header img-header">
+                    <img src="img/imagem_semantic_search.png" alt="Motor de Busca Semântico">
+                </div>
+                <div class="pcard-body">
+                    <h3>Motor de Busca Semântico</h3>
+                    <p>Sistema completo de busca híbrida (BM25 + Embeddings Vetoriais) que encontra documentos por significado. Possui chunking dinâmico, reranking de resultados, API REST desacoplada e interface web interativa.</p>
+                    <div class="tag-group">
+                        <span class="tag-sm">Python</span><span class="tag-sm">FastAPI</span><span class="tag-sm">ElasticSearch</span><span class="tag-sm">MongoDB</span><span class="tag-sm">Streamlit</span><span class="tag-sm">Docker</span>
+                    </div>
+                    <div class="pcard-footer">
+                        <a href="https://github.com/RafaelShort/semantic-search" class="btn-card" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pcard reveal-card" data-category="search data-eng">
+                <div class="pcard-header img-header">
+                    <img src="img/imagem_web_crawler.png" alt="Distributed Web Crawler">
+                </div>
+                <div class="pcard-body">
+                    <h3>Distributed Web Crawler</h3>
+                    <p>Motor de crawling assíncrono distribuído com workers paralelos, deduplicação de URLs em O(1) via Bloom Filter, mensageria via RabbitMQ e indexação full-text ponderada com monitoramento em tempo real.</p>
+                    <div class="tag-group">
+                        <span class="tag-sm">Python</span><span class="tag-sm">FastAPI</span><span class="tag-sm">RabbitMQ</span><span class="tag-sm">ElasticSearch</span><span class="tag-sm">MongoDB</span><span class="tag-sm">Docker</span>
+                    </div>
+                    <div class="pcard-footer">
+                        <a href="https://github.com/RafaelShort/web-crawler" class="btn-card" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pcard reveal-card" data-category="ai">
+                <div class="pcard-header img-header">
+                    <img src="img/imagem_rag_system.png" alt="Local RAG Chatbot">
+                </div>
+                <div class="pcard-body">
+                    <h3>Local RAG System</h3>
+                    <p>Sistema de Retrieval-Augmented Generation (RAG) para conversação com documentos em ambiente 100% local. Suporta múltiplos formatos de arquivo, busca vetorial e controle fino de parâmetros de recuperação.</p>
+                    <div class="tag-group">
+                        <span class="tag-sm">Python</span><span class="tag-sm">FastAPI</span><span class="tag-sm">LangChain</span><span class="tag-sm">Qdrant</span><span class="tag-sm">Ollama</span><span class="tag-sm">React</span><span class="tag-sm">Tailwind</span>
+                    </div>
+                    <div class="pcard-footer">
+                        <a href="https://github.com/RafaelShort/rag-chatbot" class="btn-card" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pcard reveal-card" data-category="ai data-eng">
+                <div class="pcard-header img-header">
+                    <img src="img/imagem_multiagent_chat.png" alt="Multi-Agent Platform">
+                </div>
+                <div class="pcard-body">
+                    <h3>Multi-Agent Platform</h3>
+                    <p>Plataforma distribuída de agentes LLM especializados com orquestração assíncrona e roteamento via Kafka. Permite edição ao vivo de personas, contexto multi-turn e monitoramento de métricas do sistema.</p>
+                    <div class="tag-group">
+                        <span class="tag-sm">Python</span><span class="tag-sm">FastAPI</span><span class="tag-sm">Apache Kafka</span><span class="tag-sm">Ollama</span><span class="tag-sm">React</span><span class="tag-sm">Docker</span>
+                    </div>
+                    <div class="pcard-footer">
+                        <a href="https://github.com/RafaelShort/multi-agent-platform" class="btn-card" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
 
             <div class="pcard reveal-card" data-category="ai">
                 <div class="pcard-header gradient-ai">
